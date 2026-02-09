@@ -2,6 +2,7 @@
 #include <conio.h>
 #include <chrono>
 #include <thread>
+#include <windows.h>
 using namespace std;
 char a[9][9], piese[17] = {'R', 'r', 'N', 'n', 'B', 'b', 'K', 'k', 'Q', 'q', 'B', 'b', 'N', 'n', 'R', 'r'}, hhh, c;
 int i, j, x, y, xx, yy, castigator, mesaj, ep[2], cursor[2] = {4, 4};
